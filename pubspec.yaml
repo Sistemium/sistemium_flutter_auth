@@ -1,0 +1,22 @@
+name: sistemium_flutter_auth
+publish_to: "none"
+version: 1.0.0
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: 4.6.0
+  get: 4.6.5
+  loader_overlay: 2.2.0
+  stm_extensions:
+    git: https://github.com/EdgarJan/stm_extensions
+  pin_code_fields: 7.4.0
+  google_sign_in: 6.1.0
+  sign_button: 2.0.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
