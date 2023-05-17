@@ -1,6 +1,6 @@
 name: sistemium_flutter_auth
 publish_to: "none"
-version: 1.0.0
+version: 1.0.1
 environment:
   sdk: ">=3.0.0 <4.0.0"
   flutter: ">=1.17.0"
@@ -8,7 +8,7 @@ dependencies:
   flutter:
     sdk: flutter
   firebase_auth: 4.6.0
-  get: 4.6.5
+  get: 5.0.0-release-candidate-4
   loader_overlay: 2.2.0
   stm_extensions:
     git: https://github.com/EdgarJan/stm_extensions
