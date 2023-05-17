@@ -1,5 +1,6 @@
 library sistemium_flutter_auth;
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:loader_overlay/loader_overlay.dart';
@@ -11,6 +12,8 @@ class Auth extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    FirebaseAuth.instance
+        .setLanguageCode(Get.deviceLocale?.languageCode.toString());
     return GetMaterialApp(
       translations: AuthTranslations(),
       locale: Get.deviceLocale,
