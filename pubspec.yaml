@@ -11,7 +11,9 @@ dependencies:
   get: 5.0.0-release-candidate-4
   loader_overlay: 2.2.0
   stm_extensions:
-    git: https://github.com/EdgarJan/stm_extensions
+    git:
+      url: https://github.com/EdgarJan/stm_extensions.git
+      ref: '6c12e6a'
   pin_code_fields: 7.4.0
   google_sign_in: 6.1.0
   sign_button: 2.0.3
